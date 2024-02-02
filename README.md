@@ -1,6 +1,10 @@
 # Solos
 
-### Database Name: vault
+### Technology stack required to run: (MAMP, LAMP, WAMP)
+## (Linux, Windows, Mac) Apache, PHP, MySQL
+
+### Database Name: 
+## Vault
 
 ### Create important documents table 
 CREATE TABLE `important_documents` (
