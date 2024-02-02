@@ -4,7 +4,7 @@
 ## (Linux, Windows, Mac) Apache, PHP, MySQL
 
 ### Database Name: 
-## Vault
+## vault
 
 ### Create important documents table 
 CREATE TABLE `important_documents` (
