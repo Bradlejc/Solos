@@ -1,20 +1,20 @@
 # Solos
 
+### Database Name: vault
 
-
-## Create important documents table 
+### Create important documents table 
 CREATE TABLE `important_documents` (
   `id` int(11) NOT NULL,
   `filename` longblob NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8
 
-## Create medical conditions table
+### Create medical conditions table
 CREATE TABLE `medical_conditions` (
   `id` int(11) NOT NULL,
   `medical_condition` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8
 
-## Create medical information table 
+### Create medical information table 
 CREATE TABLE `medical_information` (
   `id` int(11) NOT NULL,
   `medical_advocate` varchar(250) DEFAULT NULL,
@@ -31,7 +31,7 @@ CREATE TABLE `medical_information` (
   `date_created` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8
 
-# Create personal information table
+### Create personal information table
 CREATE TABLE `personal_information` (
   `id` int(11) NOT NULL,
   `legal_name` varchar(100) DEFAULT NULL,
@@ -55,7 +55,7 @@ CREATE TABLE `personal_information` (
   `date_created` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8
 
-# Create personal information for spouse table 
+### Create personal information for spouse table 
 CREATE TABLE `personal_information_spouse` (
   `id` int(11) NOT NULL,
   `legal_name` varchar(100) DEFAULT NULL,
@@ -77,7 +77,7 @@ CREATE TABLE `personal_information_spouse` (
   `date_created` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8
 
-# Create pets table
+### Create pets table
 CREATE TABLE `pets` (
   `id` int(11) NOT NULL,
   `pet_name` varchar(250) NOT NULL,
@@ -89,19 +89,19 @@ CREATE TABLE `pets` (
   `policy_number` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8
 
-# Create siblings table
+### Create siblings table
 CREATE TABLE `siblings` (
   `id` int(11) NOT NULL,
   `sibling_name` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8
 
-# Create parents table
+### Create parents table
 CREATE TABLE `parents` (
   `id` int(11) NOT NULL,
   `parent_name` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8
 
-# Create users table 
+### Create users table 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `first_name` varchar(100) NOT NULL,
@@ -112,7 +112,7 @@ CREATE TABLE `users` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8
 
-# Create who to notify table
+### Create who to notify table
 CREATE TABLE `who_to_notify` (
   `id` int(11) NOT NULL,
   `name` varchar(100) NOT NULL,
@@ -120,13 +120,13 @@ CREATE TABLE `who_to_notify` (
   `details` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8
 
-# Create siblings for spouse table
+### Create siblings for spouse table
 CREATE TABLE `siblings_spouse` (
   `id` int(11) NOT NULL,
   `sibling_name` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8
 
-# Create parents for spouse table
+### Create parents for spouse table
 CREATE TABLE `parents_spouse` (
   `id` int(11) NOT NULL,
   `parent_name` varchar(100) NOT NULL
