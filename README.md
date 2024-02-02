@@ -1,1 +1,1 @@
-# Solos52
+# Solos
