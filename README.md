@@ -1,18 +1,20 @@
 # Solos
 
-# Create important documents table 
+
+
+## Create important documents table 
 CREATE TABLE `important_documents` (
   `id` int(11) NOT NULL,
   `filename` longblob NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8
 
-# Create medical conditions table
+## Create medical conditions table
 CREATE TABLE `medical_conditions` (
   `id` int(11) NOT NULL,
   `medical_condition` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8
 
-# Create medical information table 
+## Create medical information table 
 CREATE TABLE `medical_information` (
   `id` int(11) NOT NULL,
   `medical_advocate` varchar(250) DEFAULT NULL,
