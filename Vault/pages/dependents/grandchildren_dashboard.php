@@ -9,7 +9,7 @@ include("../../form_handlers/session_handler.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Dependents</title>
+    <title>Grandchildren</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -57,49 +57,25 @@ include("../../form_handlers/session_handler.php");
         }
         ?>
 
-        <div class="mt-3 mb-3">
-            <h1 class="h3 text-dark">Dashboard</h1>
-        </div>
+        <div class="row bins mt-3">
 
-        <div class="row bins">
+            <div class="col-xl-3 col-md-3">
 
-            <div class="col-xl-4 col-md-6 mb-4">
                 <div class="card border-0 shadow h-100 py-2">
-                    <div class="card-body">
-                        <div class="row no-gutters align-items-center">
-                            <div class="col mr-2">
-                                <div class="text-xs fw-bold text-dark text-uppercase mb-1">
-                                    Children</div>
-                                <a class="btn btn-link text-secondary text-decoration-none"
-                                    href="children_dashboard.php">
-                                    Enter Bin
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <i class="fa-solid fa-truck-medical fa-2x text-secondary"></i>
+                    <a class="btn btn-link text-secondary text-decoration-none stretched-link"
+                        href="personal_information_grandchild.php">
+                        <div class="card-body">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col mr-2">
+                                    <div class="text-xs fw-bold text-dark text-uppercase mb-1">
+                                        Grandchild</div>
+                                </div>
+                                <div class="col-auto">
+                                    <i class="fa-solid fa-plus fa-2x text-secondary"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-md-6 mb-4">
-                <div class="card border-0 shadow h-100 py-2">
-                    <div class="card-body">
-                        <div class="row no-gutters align-items-center">
-                            <div class="col mr-2">
-                                <div class="text-xs fw-bold text-dark text-uppercase mb-1">
-                                    Grandchildren</div>
-                                <a class="btn btn-link text-secondary text-decoration-none"
-                                    href="grandchildren_dashboard.php">
-                                    Enter Bin
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
-                            </div>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
 
