@@ -40,8 +40,9 @@ $(document).ready(function () {
         $(".show_medical_condition_item").after(`
         <div class="col-md-6 col-lg-3 remove_medical_condition_item">
         <div class="input-group h-100">
-            <input type="text" name="medical_conditions[]" class="form-control shadow-none" placeholder="Add medical condition">
-            <button class="btn btn-danger remove_medical_condition_btn">-</button>
+        <input type="text" class="form-control shadow-none"
+            placeholder="Add medical condition" name="medical_conditions[]">
+        <button class="btn btn-danger remove_medical_condition_btn">-</button>
         </div>
         </div>
     `);

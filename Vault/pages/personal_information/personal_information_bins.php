@@ -100,7 +100,7 @@ include("../../page_handlers/personal_information_handler.php");
                         <h4 class="card-title text-center">
                             <?php
                             echo
-                                '<b>' . $personal_information_user['legal_name'] . '</b><hr>';
+                                '<b>' . $user['first_name'] . ' ' . $user['last_name'] . '</b><hr>';
                             ?>
                         </h4>
                         <p class="card-text">

@@ -70,10 +70,23 @@ include("../../form_handlers/session_handler.php");
                             <div class="col mr-2">
                                 <div class="text-xs fw-bold text-dark text-uppercase mb-1">
                                     Medical</div>
-                                <a class="btn btn-link text-secondary text-decoration-none"
-                                    href="medical_information.php">
+                                <?php
+                                $check_database_query = mysqli_query($conn, "SELECT * FROM medical_information WHERE id='$userID'");
+                                $check_records_query = mysqli_num_rows($check_database_query);
+
+                                if ($check_records_query == 1) {
+                                    echo '<a class="btn btn-link text-secondary text-decoration-none"
+                                    href="medical_information_medical_bins.php">
                                     Enter Bin
-                                </a>
+                                    </a>';
+                                } else {
+                                    echo '<a class="btn btn-link text-secondary text-decoration-none"
+                                    href="medical_information_medical.php">
+                                    Enter Bin
+                                    </a>';
+                                }
+                                ?>
+
                             </div>
                             <div class="col-auto">
                                 <i class="fa-solid fa-user fa-2x text-secondary"></i>

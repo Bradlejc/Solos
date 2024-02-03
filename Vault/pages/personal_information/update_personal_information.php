@@ -193,14 +193,6 @@ include("../../page_handlers/personal_information_handler.php");
 
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
-                        <input type="text" name="linkedIn" class="form-control shadow-none" id="floatingInput"
-                            value="<?php echo $personal_information_user['linkedIn']; ?>">
-                        <label for="floatingInput">LinkedIn</label>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="form-floating">
                         <input type="text" name="occupation" class="form-control shadow-none" id="floatingInput"
                             value="<?php echo $personal_information_user['occupation']; ?>">
                         <label for="floatingInput">Occupation</label>

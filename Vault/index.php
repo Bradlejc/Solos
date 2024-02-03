@@ -247,7 +247,8 @@ include("keycode_handlers/encrypted_key.php");
                             <div class="col mr-2">
                                 <div class="text-xs fw-bold text-dark text-uppercase mb-1">
                                     Tax</div>
-                                <a class="btn btn-link text-secondary text-decoration-none" href="pages/tax/tax_bins.php">
+                                <a class="btn btn-link text-secondary text-decoration-none"
+                                    href="pages/tax/tax_bins.php">
                                     Enter Bin
                                 </a>
                             </div>
@@ -446,7 +447,8 @@ include("keycode_handlers/encrypted_key.php");
                             <div class="col mr-2">
                                 <div class="text-xs fw-bold text-dark text-uppercase mb-1">
                                     Passwords</div>
-                                <a class="btn btn-link text-secondary text-decoration-none" href="pages/passwords/passwords.php">
+                                <a class="btn btn-link text-secondary text-decoration-none"
+                                    href="pages/passwords/passwords.php">
                                     Enter Bin
                                 </a>
                             </div>
@@ -564,7 +566,8 @@ include("keycode_handlers/encrypted_key.php");
                             <div class="col mr-2">
                                 <div class="text-xs fw-bold text-dark text-uppercase mb-1">
                                     Ancestry</div>
-                                <a class="btn btn-link text-secondary text-decoration-none" href="pages/ancestry/ancestry.php">
+                                <a class="btn btn-link text-secondary text-decoration-none"
+                                    href="pages/ancestry/ancestry.php">
                                     Enter Bin
                                 </a>
                             </div>
@@ -723,7 +726,8 @@ include("keycode_handlers/encrypted_key.php");
                             <div class="col mr-2">
                                 <div class="text-xs fw-bold text-dark text-uppercase mb-1">
                                     At Death</div>
-                                <a class="btn btn-link text-secondary text-decoration-none" href="pages/at_death/death_bins.php">
+                                <a class="btn btn-link text-secondary text-decoration-none"
+                                    href="pages/at_death/death_bins.php">
                                     Enter Bin
                                 </a>
                             </div>
@@ -1194,55 +1198,17 @@ include("keycode_handlers/encrypted_key.php");
 
         <hr>
 
-        <div class="row bins">
+        <div class="row bins justify-content-center">
 
-            <div class="col-xl-4 col-md-6 mb-4">
+            <div class="col-xl-4 col-md-6 mb-4 d-flex justify-content-center">
                 <div class="card border-primary shadow h-100 py-2">
                     <div class="card-body">
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
-                                <div class="text-xs fw-bold text-dark text-center text-uppercase">
-                                    General</div>
-                                <div id="generalqrcode" class="d-flex justify-content-center mt-3"></div>
+                                <div id="generalqrcode" class="d-flex justify-content-center"></div>
                                 <script>
                                     var qrcode = new QRCode("generalqrcode",
                                         "https://www.milb.com/player/landon-stephens-686677");
-                                </script>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-md-6 mb-4">
-                <div class="card border-success shadow h-100 py-2">
-                    <div class="card-body">
-                        <div class="row no-gutters align-items-center">
-                            <div class="col mr-2">
-                                <div class="text-xs fw-bold text-dark text-center text-uppercase mb-1">
-                                    Medications</div>
-                                <div id="medicationqrcode" class="d-flex justify-content-center mt-3"></div>
-                                <script>
-                                    var qrcode = new QRCode("medicationqrcode",
-                                        "https://www.geeksforgeeks.org");
-                                </script>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-md-6 mb-4">
-                <div class="card border-danger shadow h-100 py-2">
-                    <div class="card-body">
-                        <div class="row no-gutters align-items-center">
-                            <div class="col mr-2">
-                                <div class="text-xs fw-bold text-dark text-center text-uppercase mb-1">
-                                    Family History</div>
-                                <div id="familyqrcode" class="d-flex justify-content-center mt-3"></div>
-                                <script>
-                                    var qrcode = new QRCode("familyqrcode",
-                                        "https://www.geeksforgeeks.org");
                                 </script>
                             </div>
                         </div>
