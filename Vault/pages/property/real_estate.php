@@ -79,10 +79,11 @@ include("../../form_handlers/session_handler.php");
                 </div>
 
                 <div class="col-md-6 col-lg-3">
-                    <div class="form-floating">
-                        <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Co-owners</label>
-                    </div>
+                    <select name="military_service" class="form-select w-100 h-100 shadow-none" placeholder="Ownership">
+                        <option disabled selected>Ownership</option>
+                        <option value="army">Yes</option>
+                        <option value="navy">No</option>
+                    </select>
                 </div>
 
                 <div class="col-md-6 col-lg-3">
@@ -99,17 +100,15 @@ include("../../form_handlers/session_handler.php");
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-3">
-                    <div class="form-floating">
-                        <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Legal Documents</label>
-                    </div>
+                <div class="col-md-6 col-lg-3 d-flex align-items-center">
+                    <label for="formFile" class="form-label px-1"><strong>Deed</strong></label>
+                    <input class="form-control" type="file" id="formFile">
                 </div>
 
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Keys</label>
+                        <label for="floatingInput">Key Location</label>
                     </div>
                 </div>
 

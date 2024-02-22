@@ -62,36 +62,34 @@ include("../../form_handlers/session_handler.php");
         <form action="additional_services.php" method="POST" enctype="multipart/form-data">
             <div class="row g-3 py-3">
                 <div class="col-9">
-                    <h1 class="fw-bold">Additional Services</h1>
+                    <h1 class="fw-bold">Additional Services Upon Request</h1>
                 </div>
                 <div class="col-3">
                     <input type="submit" name="important_documents_btn" class="btn btn-primary w-100" value="Go">
                 </div>
             </div>
 
-            <div class="row g-3 justify-content-center">
+            <div class="row g-3">
                 <div class="col-md-6 col-lg-6">
-                    <select name="military_service" class="form-select w-100 h-100 shadow-none"
-                        placeholder="Military Service">
-                        <option disabled selected>Additional Services</option>
-                        <option value="army">Travel</option>
-                        <option value="army">Power Of Attorney</option>
-                        <option value="navy">PTP</option>
-                        <option value="marines">Pet Care</option>
-                        <option value="air force">House Watch</option>
-                        <option value="coast guard">Legal Assistance</option>
-                        <option value="coast guard">Rehab</option>
-                        <option value="coast guard">Generational/Legacy Education</option>
-                        <option value="coast guard">Annual Family Meeting</option>
-                        <option value="coast guard">Wealth Management</option>
-                        <option value="coast guard">Insurance</option>
-                        <option value="coast guard">Risk Management</option>
-                        <option value="coast guard">Auto Transport</option>
-                        <option value="coast guard">Business Consulting</option>
-                        <option value="coast guard">Moving</option>
-                        <option value="coast guard">Elder Care</option>
-                        <option value="coast guard">Entertainment/Tickets</option>
-                    </select>
+                    <ul class="list-unstyled">
+                        <li>Travel</li>
+                        <li>Power Of Attorney</li>
+                        <li>PTP</li>
+                        <li>Pet Care</lin>
+                        <li>House Watch</li>
+                        <li>Legal Assistance</li>
+                        <li>Rehab</li>
+                        <li>Generational/Legacy Education</li>
+                        <li>Annual Family Meeting</li>
+                        <li>Wealth Management</li>
+                        <li>Insurance</li>
+                        <li>Risk Management</li>
+                        <li>Auto Transport</li>
+                        <li>Business Consulting</li>
+                        <li>Moving</li>
+                        <li>Elder Care</li>
+                        <li>Entertainment/Tickets</li>
+                    </ul>
                 </div>
             </div>
         </form>

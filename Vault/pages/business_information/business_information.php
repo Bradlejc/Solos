@@ -59,7 +59,7 @@ include("../../form_handlers/session_handler.php");
 
     <div class="container-fluid">
 
-        <form action="airline.php" method="POST" id="add_personal_information">
+        <form action="business_information.php" method="POST" id="add_personal_information">
             <div class="row g-3 py-3">
                 <div class="col-9">
                     <h1 class="fw-bold">Business Information</h1>
@@ -161,14 +161,14 @@ include("../../form_handlers/session_handler.php");
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Account Name</label>
+                        <label for="floatingInput">CPA</label>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Number</label>
+                        <label for="floatingInput">Phone Number</label>
                     </div>
                 </div>
 
@@ -201,37 +201,7 @@ include("../../form_handlers/session_handler.php");
             <div class="row g-3 py-3">
 
                 <div class="col-md-6 col-lg-3">
-                    <label for="formFile" class="form-label"><strong>Location of Document</strong></label>
-                    <input class="form-control" type="file" id="formFile">
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <label for="formFile" class="form-label"><strong>Rental Agreement</strong></label>
-                    <input class="form-control" type="file" id="formFile">
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <label for="formFile" class="form-label"><strong>Keys</strong></label>
-                    <input class="form-control" type="file" id="formFile">
-                </div>
-
-                <div class="col-md-6 col-lg-3">
                     <label for="formFile" class="form-label"><strong>Business Financials</strong></label>
-                    <input class="form-control" type="file" id="formFile">
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <label for="formFile" class="form-label"><strong>Employment Agreement</strong></label>
-                    <input class="form-control" type="file" id="formFile">
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <label for="formFile" class="form-label"><strong>Insurance Policies</strong></label>
-                    <input class="form-control" type="file" id="formFile">
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <label for="formFile" class="form-label"><strong>Vehicle Leases</strong></label>
                     <input class="form-control" type="file" id="formFile">
                 </div>
 
@@ -269,7 +239,11 @@ include("../../form_handlers/session_handler.php");
                 </div>
             </div>
 
-            <div class="row g-3 py-3">
+            <div class="py-3">
+                <h1 class="h3 text-dark">Notes</h1>
+            </div>
+
+            <div class="row g-3">
 
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
@@ -305,6 +279,29 @@ include("../../form_handlers/session_handler.php");
                         <label for="floatingInput">Other</label>
                     </div>
                 </div>
+            </div>
+
+            <div class="py-3">
+                <h1 class="h3 text-dark">Business Agreement Uploads</h1>
+            </div>
+
+            <div class="row g-3 mb-3">
+                <div class="col-md-6 col-lg-3">
+                    <label for="formFile" class="form-label"><strong>Rental Agreement</strong></label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <label for="formFile" class="form-label"><strong>Employment Agreement</strong></label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <label for="formFile" class="form-label"><strong>Insurance Policies</strong></label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+
+
             </div>
         </form>
     </div>

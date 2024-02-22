@@ -95,7 +95,7 @@ if (isset($_POST['update_personal_information_btn'])) {
 
   // TO DO: Add all fields to update statement
   $query = mysqli_query($conn, "UPDATE personal_information SET 
-      legal_name='$full_legal_name', maiden_name='$maiden_name', education='$education', occupation='$occupation', citizenship_information='$citizenship' WHERE id='$user_id'");
+      legal_name='$full_legal_name', maiden_name='$maiden_name', education='$education', occupation='$occupation', citizenship_information='$citizenship', place_of_birth='$place_of_birth' WHERE id='$user_id'");
 
   $delete_curr_parents_query = mysqli_query($conn, "DELETE FROM parents WHERE id='$user_id'");
 

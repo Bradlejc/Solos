@@ -62,7 +62,7 @@ include("../../form_handlers/session_handler.php");
         <form action="insurance.php" method="POST" id="add_personal_information">
             <div class="row g-3 py-3">
                 <div class="col-9">
-                    <h1 class="fw-bold">Insurance</h1>
+                    <h1 class="fw-bold">Medical Insurance</h1>
                 </div>
                 <div class="col-3">
                     <input type="submit" name="insurance_btn" id="personal_information_btn"
@@ -74,7 +74,21 @@ include("../../form_handlers/session_handler.php");
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="policy_number" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Policy Number</label>
+                        <label for="floatingInput">Member Name</label>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="form-floating">
+                        <input type="text" name="policy_number" class="form-control shadow-none" id="floatingInput">
+                        <label for="floatingInput">Member ID</label>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="form-floating">
+                        <input type="text" name="policy_number" class="form-control shadow-none" id="floatingInput">
+                        <label for="floatingInput">Group ID</label>
                     </div>
                 </div>
 
@@ -82,14 +96,30 @@ include("../../form_handlers/session_handler.php");
                     <div class="form-floating">
                         <input type="text" name="medical_provider_name" class="form-control shadow-none"
                             id="floatingInput">
-                        <label for="floatingInput">Medical Provider Name</label>
+                        <label for="floatingInput">Provider Name</label>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="form-floating">
+                        <input type="text" name="medical_provider_name" class="form-control shadow-none"
+                            id="floatingInput">
+                        <label for="floatingInput">Dental Provider Name</label>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="form-floating">
+                        <input type="text" name="medical_provider_name" class="form-control shadow-none"
+                            id="floatingInput">
+                        <label for="floatingInput">Dental Member ID</label>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="group_number" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Group Number</label>
+                        <label for="floatingInput">Dental Group ID</label>
                     </div>
                 </div>
 

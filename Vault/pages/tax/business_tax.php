@@ -62,7 +62,7 @@ include("../../form_handlers/session_handler.php");
         <form action="business_tax.php" method="POST" id="add_personal_information">
             <div class="row g-3 py-3">
                 <div class="col-9">
-                    <h1 class="fw-bold">Business</h1>
+                    <h1 class="fw-bold">Tax/Business</h1>
                 </div>
                 <div class="col-3">
                     <input type="submit" name="personal_information_btn" id="personal_information_btn"
@@ -84,12 +84,6 @@ include("../../form_handlers/session_handler.php");
                             <option value="" hidden>Tax Year</option>
                         </select>
                     </div>
-                </div>
-            </div>
-
-            <div class="row g-3 justify-content-center mt-3">
-                <div class="col-md-6 col-lg-3">
-                    <button class="btn btn-primary w-100 add_business_tax_btn">Policy +</button>
                 </div>
             </div>
         </form>

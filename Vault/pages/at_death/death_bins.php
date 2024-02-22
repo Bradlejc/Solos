@@ -47,7 +47,7 @@ include("../../form_handlers/session_handler.php");
     <div class="container-fluid">
 
         <div class="mt-3 mb-3">
-            <h1 class="h3 text-dark">Dashboard</h1>
+            <h1 class="h3 text-dark">At Death</h1>
         </div>
 
         <div class="row g-3">

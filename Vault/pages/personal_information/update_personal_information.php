@@ -114,7 +114,7 @@ include("../../page_handlers/personal_information_handler.php");
                     <div class="form-floating">
                         <input type="text" name="place_of_birth" class="form-control shadow-none" id="floatingInput"
                             value="<?php echo $personal_information_user['place_of_birth']; ?>">
-                        <label for="floatingInput">Place of Birth</label>
+                        <label for="floatingInput">Birth Place</label>
                     </div>
                 </div>
 

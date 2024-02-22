@@ -59,7 +59,7 @@ include("../../form_handlers/session_handler.php");
 
     <div class="container-fluid">
 
-        <form action="wishes.php" method="POST" id="add_personal_information">
+        <form action="last_words.php" method="POST" id="add_personal_information">
             <div class="row g-3 py-3">
                 <div class="col-9">
                     <h1 class="fw-bold">Last Words</h1>

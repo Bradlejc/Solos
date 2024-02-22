@@ -74,25 +74,43 @@ include("../../form_handlers/session_handler.php");
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Executor</label>
+                        <label for="floatingInput">Executor Name</label>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Description</label>
+                        <label for="floatingInput">Executor Number</label>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="form-floating">
+                        <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
+                        <label for="floatingInput">Executor Email</label>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row pt-3 g-3">
+                <div class="col-md-6 col-lg-3">
+                    <div class="form-floating">
+                        <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
+                        <label for="floatingInput">Clergy Name</label>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Clergy</label>
+                        <label for="floatingInput">Clergy Number</label>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Description</label>
+                        <label for="floatingInput">Clergy Email</label>
                     </div>
                 </div>
             </div>

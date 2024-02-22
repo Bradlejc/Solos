@@ -83,6 +83,10 @@ include("../../form_handlers/session_handler.php");
                         placeholder="Description">
                 </div>
 
+            </div>
+
+            <div class="row g-3">
+
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>Living Will</strong></label>
                     <input class="form-control" type="file" id="formFile">
@@ -93,6 +97,10 @@ include("../../form_handlers/session_handler.php");
                     <input type="text" class="form-control shadow-none" name="preferred_pharmacy" id="floatingInput"
                         placeholder="Description">
                 </div>
+
+            </div>
+
+            <div class="row g-3">
 
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>Medical POA</strong></label>
@@ -105,6 +113,10 @@ include("../../form_handlers/session_handler.php");
                         placeholder="Description">
                 </div>
 
+            </div>
+
+            <div class="row g-3">
+
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>DNR</strong></label>
                     <input class="form-control" type="file" id="formFile">
@@ -116,6 +128,10 @@ include("../../form_handlers/session_handler.php");
                         placeholder="Description">
                 </div>
 
+            </div>
+
+            <div class="row g-3">
+
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>Organ Donor</strong></label>
                     <input class="form-control" type="file" id="formFile">
@@ -126,6 +142,10 @@ include("../../form_handlers/session_handler.php");
                     <input type="text" class="form-control shadow-none" name="preferred_pharmacy" id="floatingInput"
                         placeholder="Description">
                 </div>
+
+            </div>
+
+            <div class="row g-3">
 
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>Other</strong></label>
@@ -139,7 +159,9 @@ include("../../form_handlers/session_handler.php");
                 </div>
 
             </div>
-        </form>
+
+    </div>
+    </form>
 
     </div>
 

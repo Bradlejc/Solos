@@ -59,7 +59,7 @@ include("../../form_handlers/session_handler.php");
 
     <div class="container-fluid">
 
-        <form action="pets.php" method="POST" id="add_personal_information">
+        <form action="ancestry.php" method="POST" id="add_personal_information">
             <div class="row g-3 py-3">
                 <div class="col-9">
                     <h1 class="fw-bold">Ancestry</h1>
@@ -88,14 +88,14 @@ include("../../form_handlers/session_handler.php");
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Burial Place</label>
+                        <label for="floatingInput">Cemetery Name</label>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Burial Location</label>
+                        <label for="floatingInput">Address</label>
                     </div>
                 </div>
 

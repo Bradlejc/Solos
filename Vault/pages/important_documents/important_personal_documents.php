@@ -83,6 +83,10 @@ include("../../form_handlers/session_handler.php");
                         placeholder="Description">
                 </div>
 
+            </div>
+
+            <div class="row g-3">
+
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>Passport</strong></label>
                     <input class="form-control" type="file" id="formFile">
@@ -93,6 +97,10 @@ include("../../form_handlers/session_handler.php");
                     <input type="text" class="form-control shadow-none" name="preferred_pharmacy" id="floatingInput"
                         placeholder="Description">
                 </div>
+
+            </div>
+
+            <div class="row g-3">
 
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>Drivers License</strong></label>
@@ -105,6 +113,10 @@ include("../../form_handlers/session_handler.php");
                         placeholder="Description">
                 </div>
 
+            </div>
+
+            <div class="row g-3">
+
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>Birth Certificate</strong></label>
                     <input class="form-control" type="file" id="formFile">
@@ -115,6 +127,10 @@ include("../../form_handlers/session_handler.php");
                     <input type="text" class="form-control shadow-none" name="preferred_pharmacy" id="floatingInput"
                         placeholder="Description">
                 </div>
+
+            </div>
+
+            <div class="row g-3">
 
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>Divorce Decree</strong></label>
@@ -127,6 +143,10 @@ include("../../form_handlers/session_handler.php");
                         placeholder="Description">
                 </div>
 
+            </div>
+
+            <div class="row g-3">
+
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>Prenuptial Agreement</strong></label>
                     <input class="form-control" type="file" id="formFile">
@@ -137,6 +157,10 @@ include("../../form_handlers/session_handler.php");
                     <input type="text" class="form-control shadow-none" name="preferred_pharmacy" id="floatingInput"
                         placeholder="Description">
                 </div>
+
+            </div>
+
+            <div class="row g-3">
 
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>Trust</strong></label>
@@ -149,6 +173,10 @@ include("../../form_handlers/session_handler.php");
                         placeholder="Description">
                 </div>
 
+            </div>
+
+            <div class="row g-3">
+
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>Marriage Certificate</strong></label>
                     <input class="form-control" type="file" id="formFile">
@@ -159,6 +187,10 @@ include("../../form_handlers/session_handler.php");
                     <input type="text" class="form-control shadow-none" name="preferred_pharmacy" id="floatingInput"
                         placeholder="Description">
                 </div>
+
+            </div>
+
+            <div class="row g-3">
 
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>Social Security Card</strong></label>
@@ -171,6 +203,10 @@ include("../../form_handlers/session_handler.php");
                         placeholder="Description">
                 </div>
 
+            </div>
+
+            <div class="row g-3">
+
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>Pension Document</strong></label>
                     <input class="form-control" type="file" id="formFile">
@@ -181,6 +217,10 @@ include("../../form_handlers/session_handler.php");
                     <input type="text" class="form-control shadow-none" name="preferred_pharmacy" id="floatingInput"
                         placeholder="Description">
                 </div>
+
+            </div>
+
+            <div class="row g-3">
 
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>Adoption Document</strong></label>
@@ -193,6 +233,10 @@ include("../../form_handlers/session_handler.php");
                         placeholder="Description">
                 </div>
 
+            </div>
+
+            <div class="row g-3">
+
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>Citizenship Document</strong></label>
                     <input class="form-control" type="file" id="formFile">
@@ -203,6 +247,10 @@ include("../../form_handlers/session_handler.php");
                     <input type="text" class="form-control shadow-none" name="preferred_pharmacy" id="floatingInput"
                         placeholder="Description">
                 </div>
+
+            </div>
+
+            <div class="row g-3">
 
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>Deeds to Property</strong></label>
@@ -215,6 +263,10 @@ include("../../form_handlers/session_handler.php");
                         placeholder="Description">
                 </div>
 
+            </div>
+
+            <div class="row g-3">
+
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>Titles to Vehicles</strong></label>
                     <input class="form-control" type="file" id="formFile">
@@ -225,6 +277,10 @@ include("../../form_handlers/session_handler.php");
                     <input type="text" class="form-control shadow-none" name="preferred_pharmacy" id="floatingInput"
                         placeholder="Description">
                 </div>
+
+            </div>
+
+            <div class="row g-3">
 
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>Custody Documents</strong></label>
@@ -237,6 +293,10 @@ include("../../form_handlers/session_handler.php");
                         placeholder="Description">
                 </div>
 
+            </div>
+
+            <div class="row g-3">
+
                 <div class="col-md-6 col-lg-4">
                     <label for="formFile" class="form-label"><strong>Other</strong></label>
                     <input class="form-control" type="file" id="formFile">
@@ -248,8 +308,10 @@ include("../../form_handlers/session_handler.php");
                         placeholder="Description">
                 </div>
 
+
             </div>
-        </form>
+    </div>
+    </form>
 
     </div>
 

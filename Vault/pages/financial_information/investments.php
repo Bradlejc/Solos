@@ -96,7 +96,7 @@ include("../../form_handlers/session_handler.php");
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Investment House</label>
+                        <label for="floatingInput">Name of Broker Dealer/RIA</label>
                     </div>
                 </div>
 
@@ -124,7 +124,7 @@ include("../../form_handlers/session_handler.php");
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Advisor Number</label>
+                        <label for="floatingInput">Advisor Phone Number</label>
                     </div>
                 </div>
 

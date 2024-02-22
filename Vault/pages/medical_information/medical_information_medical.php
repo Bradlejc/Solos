@@ -22,7 +22,6 @@ include("../../page_handlers/medical_information_handler.php");
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
 </head>
 
 <body>
@@ -173,11 +172,29 @@ include("../../page_handlers/medical_information_handler.php");
                 </div>
 
                 <div class="col-md-6 col-lg-3">
-                    <div class="form-floating">
-                        <input type="text" class="form-control shadow-none" name="family_health_history"
-                            id="floatingInput">
-                        <label for="floatingInput">Family Health History</label>
-                    </div>
+                    <select name="family_health_history[]" id="family_health_history" class="form-select w-100 h-100 shadow-none" multiple>
+                        <option disabled selected>Family Medical History</option>
+                        <option value="O Positive">Alcohol/Drug Abuse</option>
+                        <option value="O Negative">Arthritis/Joint Problems</option>
+                        <option value="A Positive">Asthma or Lung Disease</option>
+                        <option value="A Negative">Blood Disorder</option>
+                        <option value="B Positive">Cancer</option>
+                        <option value="B Negative">Dementia</option>
+                        <option value="AB Positive">Depression/Mental Illness</option>
+                        <option value="AB Negative">Diabetes</option>
+                        <option value="AB Negative">Gastrointestinal Problems</option>
+                        <option value="AB Negative">Genitourinary Problems</option>
+                        <option value="AB Negative">Heart Disease</option>
+                        <option value="AB Negative">High Blood Pressure</option>
+                        <option value="AB Negative">High Cholesterol</option>
+                        <option value="AB Negative">Liver Disease</option>
+                        <option value="AB Negative">Neurological Disorder</option>
+                        <option value="AB Negative">Osteoporosis</option>
+                        <option value="AB Negative">Seizure Disorder</option>
+                        <option value="AB Negative">Stroke</option>
+                        <option value="AB Negative">Thyroid Disease</option>
+                        <option value="AB Negative">Other</option>
+                    </select>
                 </div>
 
                 <div class="col-md-6 col-lg-3 d-flex align-items-center">

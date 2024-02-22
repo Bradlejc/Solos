@@ -128,7 +128,7 @@ include("../../form_handlers/session_handler.php");
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Contact Information</label>
+                        <label for="floatingInput">Phone Number</label>
                     </div>
                 </div>
 
@@ -170,7 +170,7 @@ include("../../form_handlers/session_handler.php");
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Contact Information</label>
+                        <label for="floatingInput">Phone Number</label>
                     </div>
                 </div>
 
@@ -233,7 +233,7 @@ include("../../form_handlers/session_handler.php");
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Contact Information</label>
+                        <label for="floatingInput">Phone Number</label>
                     </div>
                 </div>
 
@@ -282,7 +282,7 @@ include("../../form_handlers/session_handler.php");
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Contact Information</label>
+                        <label for="floatingInput">Phone Number</label>
                     </div>
                 </div>
 

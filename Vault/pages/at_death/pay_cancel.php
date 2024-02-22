@@ -64,6 +64,7 @@ include("../../form_handlers/session_handler.php");
                 <div class="col-md-6 col-lg-3">
                     <select name="blood_type" class="form-select w-100 h-100 shadow-none" placeholder="Policy Type">
                         <option disabled selected>Select Option</option>
+                        <option value="O Positive">Credit Card</option>
                         <option value="O Positive">Gas & Oil</option>
                         <option value="O Negative">Electric</option>
                         <option value="A Positive">Water</option>

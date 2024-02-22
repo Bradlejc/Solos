@@ -62,27 +62,22 @@ include("../../form_handlers/session_handler.php");
 
             <div class="row g-3">
                 <div class="col-md-6 col-lg-4">
-                    <label for="formFile" class="form-label"><strong>Health Power of Attorney</strong></label>
+                    <label for="formFile" class="form-label"><strong>Healthcare Power of Attorney</strong></label>
                     <input class="form-control" type="file" id="formFile">
                 </div>
 
                 <div class="col-md-6 col-lg-4">
-                    <label for="formFile" class="form-label"><strong>Insurance Card</strong></label>
+                    <label for="formFile" class="form-label"><strong>Medical Card</strong></label>
                     <input class="form-control" type="file" id="formFile">
                 </div>
 
                 <div class="col-md-6 col-lg-4">
-                    <label for="formFile" class="form-label"><strong>Living Will</strong></label>
+                    <label for="formFile" class="form-label"><strong>Dental Card</strong></label>
                     <input class="form-control" type="file" id="formFile">
                 </div>
 
                 <div class="col-md-6 col-lg-4">
-                    <label for="formFile" class="form-label"><strong>DNR</strong></label>
-                    <input class="form-control" type="file" id="formFile">
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <label for="formFile" class="form-label"><strong>Organ Donor</strong></label>
+                    <label for="formFile" class="form-label"><strong>Organ Donor Card</strong></label>
                     <input class="form-control" type="file" id="formFile">
                 </div>
             </div>

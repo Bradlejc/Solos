@@ -58,7 +58,7 @@ include("../../form_handlers/session_handler.php");
         ?>
 
         <div class="mt-3 mb-3">
-            <h1 class="h3 text-dark">Dashboard</h1>
+            <h1 class="h3 text-dark">My Dependents</h1>
         </div>
 
         <div class="row bins">
@@ -76,7 +76,7 @@ include("../../form_handlers/session_handler.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-truck-medical fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-children fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ include("../../form_handlers/session_handler.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-children fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>

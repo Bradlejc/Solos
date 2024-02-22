@@ -58,7 +58,7 @@ include("../../form_handlers/session_handler.php");
         ?>
 
         <div class="mt-3 mb-3">
-            <h1 class="h3 text-dark">Dashboard</h1>
+            <h1 class="h3 text-dark">Property</h1>
         </div>
 
         <div class="row bins">
@@ -108,8 +108,7 @@ include("../../form_handlers/session_handler.php");
                             <div class="col mr-2">
                                 <div class="text-xs fw-bold text-dark text-uppercase mb-1">
                                     Hierlooms</div>
-                                <a class="btn btn-link text-secondary text-decoration-none"
-                                    href="hierlooms.php">
+                                <a class="btn btn-link text-secondary text-decoration-none" href="hierlooms.php">
                                     Enter Bin
                                 </a>
                             </div>
@@ -128,8 +127,7 @@ include("../../form_handlers/session_handler.php");
                             <div class="col mr-2">
                                 <div class="text-xs fw-bold text-dark text-uppercase mb-1">
                                     Storage Units</div>
-                                <a class="btn btn-link text-secondary text-decoration-none"
-                                    href="storage_units.php">
+                                <a class="btn btn-link text-secondary text-decoration-none" href="storage_units.php">
                                     Enter Bin
                                 </a>
                             </div>
@@ -148,8 +146,7 @@ include("../../form_handlers/session_handler.php");
                             <div class="col mr-2">
                                 <div class="text-xs fw-bold text-dark text-uppercase mb-1">
                                     Other</div>
-                                <a class="btn btn-link text-secondary text-decoration-none"
-                                    href="other_property.php">
+                                <a class="btn btn-link text-secondary text-decoration-none" href="other_property.php">
                                     Enter Bin
                                 </a>
                             </div>

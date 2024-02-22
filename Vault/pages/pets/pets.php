@@ -71,21 +71,21 @@ include("../../form_handlers/session_handler.php");
             </div>
 
             <div class="row g-3">
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
                         <label for="floatingInput">Pet Name</label>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
                         <label for="floatingInput">Breed</label>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
                         <label for="floatingInput">Age</label>
@@ -132,7 +132,7 @@ include("../../form_handlers/session_handler.php");
             <div class="row g-3 mt-3 new_pet">
 
                 <div class="col-md-6 col-lg-3">
-                    <label for="formFile" class="form-label"><strong>Upload Picture</strong></label>
+                    <label for="formFile" class="form-label"><strong>Upload Picture Of Pet</strong></label>
                     <input class="form-control" type="file" id="formFile">
                 </div>
 

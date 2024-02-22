@@ -63,11 +63,51 @@ include("keycode_handlers/encrypted_key.php");
         }
         ?>
 
-        <div class="mt-3 mb-3">
+        <!-- <div class="mt-3 mb-3">
             <h1 class="h3 text-dark">Dashboard</h1>
-        </div>
+        </div> -->
 
-        <div class="row bins">
+        <div class="row bins mt-3">
+
+            <!-- <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-0 shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs fw-bold text-dark text-uppercase mb-1">
+                                    Key Contacts</div>
+                                <button type="button" class="btn btn-link text-secondary text-decoration-none"
+                                    data-bs-toggle="modal" data-bs-target="#key_contacts">
+                                    Enter Bin
+                                </button>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fa-solid fa-address-book fa-2x text-secondary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-0 shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs fw-bold text-dark text-uppercase mb-1">
+                                    Key Contacts</div>
+                                <a class="btn btn-link text-secondary text-decoration-none"
+                                    href="pages/key_contacts/key_contacts.php">
+                                    Enter Bin
+                                </a>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- <div class="col-xl-3 col-md-6 mb-4">
                 <div class="card border-0 shadow h-100 py-2">
@@ -366,7 +406,7 @@ include("keycode_handlers/encrypted_key.php");
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
                                 <div class="text-xs fw-bold text-dark text-uppercase mb-1">
-                                    Property</div>
+                                    Personal Property</div>
                                 <a class="btn btn-link text-secondary text-decoration-none"
                                     href="pages/property/property_bin.php">
                                     Enter Bin
@@ -608,46 +648,6 @@ include("keycode_handlers/encrypted_key.php");
                                     Important Documents</div>
                                 <a class="btn btn-link text-secondary text-decoration-none"
                                     href="pages/important_documents/important_documents_bins.php">
-                                    Enter Bin
-                                </a>
-                            </div>
-                            <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- <div class="col-xl-3 col-md-6 mb-4">
-                <div class="card border-0 shadow h-100 py-2">
-                    <div class="card-body">
-                        <div class="row no-gutters align-items-center">
-                            <div class="col mr-2">
-                                <div class="text-xs fw-bold text-dark text-uppercase mb-1">
-                                    Key Contacts</div>
-                                <button type="button" class="btn btn-link text-secondary text-decoration-none"
-                                    data-bs-toggle="modal" data-bs-target="#key_contacts">
-                                    Enter Bin
-                                </button>
-                            </div>
-                            <div class="col-auto">
-                                <i class="fa-solid fa-address-book fa-2x text-secondary"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-            <div class="col-xl-3 col-md-6 mb-4">
-                <div class="card border-0 shadow h-100 py-2">
-                    <div class="card-body">
-                        <div class="row no-gutters align-items-center">
-                            <div class="col mr-2">
-                                <div class="text-xs fw-bold text-dark text-uppercase mb-1">
-                                    Key Contacts</div>
-                                <a class="btn btn-link text-secondary text-decoration-none"
-                                    href="pages/key_contacts/key_contacts.php">
                                     Enter Bin
                                 </a>
                             </div>
@@ -1198,7 +1198,7 @@ include("keycode_handlers/encrypted_key.php");
 
         <hr>
 
-        <div class="row bins justify-content-center">
+        <div class="row bins justify-content-center pt-3">
 
             <div class="col-xl-4 col-md-6 mb-4 d-flex justify-content-center">
                 <div class="card border-primary shadow h-100 py-2">

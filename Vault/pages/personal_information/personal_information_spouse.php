@@ -88,14 +88,14 @@ include("../../page_handlers/personal_information_spouse_handler.php");
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="date" name="dob" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Date of Birth</label>
+                        <label for="floatingInput">Birth Place</label>
                     </div>
                 </div>
 
                 <div class=" col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="place_of_birth" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Place of Birth</label>
+                        <label for="floatingInput">Birth Place</label>
                     </div>
                 </div>
 
