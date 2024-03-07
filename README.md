@@ -122,7 +122,7 @@ CREATE TABLE `users` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8
 
-### Create who to notify table
+### Create `who to notify` table
 CREATE TABLE `who_to_notify` (
   `id` int(11) NOT NULL,
   `name` varchar(100) NOT NULL,
