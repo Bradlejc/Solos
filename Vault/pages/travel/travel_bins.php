@@ -58,7 +58,7 @@ include("../../form_handlers/session_handler.php");
         ?>
 
         <div class="mt-3 mb-3">
-            <h1 class="h3 text-dark">Travel</h1>
+            <h1 class="fw-bold text-dark">Travel</h1>
         </div>
 
         <div class="row bins">
@@ -76,7 +76,7 @@ include("../../form_handlers/session_handler.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-user fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-plane-departure fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ include("../../form_handlers/session_handler.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-truck-medical fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-hotel fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>

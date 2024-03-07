@@ -69,7 +69,7 @@ include("../../form_handlers/session_handler.php");
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
                                 <div class="text-xs fw-bold text-dark text-uppercase mb-1">
-                                    Life & Health Insurance</div>
+                                    Beneficiary Life & Health Insurance</div>
                                 <a class="btn btn-link text-secondary text-decoration-none" href="l_&_hi.php">
                                     Enter Bin
                                 </a>
@@ -88,7 +88,7 @@ include("../../form_handlers/session_handler.php");
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
                                 <div class="text-xs fw-bold text-dark text-uppercase mb-1">
-                                    Social Security</div>
+                                    Beneficiary Social Security</div>
                                 <a class="btn btn-link text-secondary text-decoration-none" href="social_security.php">
                                     Enter Bin
                                 </a>
@@ -107,7 +107,7 @@ include("../../form_handlers/session_handler.php");
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
                                 <div class="text-xs fw-bold text-dark text-uppercase mb-1">
-                                    Employee Benefits</div>
+                                    Beneficiary Employee Benefits</div>
                                 <a class="btn btn-link text-secondary text-decoration-none"
                                     href="employee_benefits.php">
                                     Enter Bin
@@ -127,7 +127,7 @@ include("../../form_handlers/session_handler.php");
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
                                 <div class="text-xs fw-bold text-dark text-uppercase mb-1">
-                                    Retirement</div>
+                                    Pension</div>
                                 <a class="btn btn-link text-secondary text-decoration-none"
                                     href="retirement.php">
                                     Enter Bin

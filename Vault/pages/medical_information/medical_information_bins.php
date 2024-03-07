@@ -69,7 +69,7 @@ include("../../form_handlers/session_handler.php");
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
                                 <div class="text-xs fw-bold text-dark text-uppercase mb-1">
-                                    Medical</div>
+                                    Medical Details</div>
                                 <?php
                                 $check_database_query = mysqli_query($conn, "SELECT * FROM medical_information WHERE id='$userID'");
                                 $check_records_query = mysqli_num_rows($check_database_query);

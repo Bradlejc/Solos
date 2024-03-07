@@ -62,7 +62,7 @@ include("../../form_handlers/session_handler.php");
         <form action="social_security.php" method="POST" id="add_personal_information">
             <div class="row g-3 py-3">
                 <div class="col-9">
-                    <h1 class="fw-bold">Social Security</h1>
+                    <h1 class="fw-bold">Beneficiary Social Security</h1>
                 </div>
                 <div class="col-3">
                     <input type="submit" name="personal_information_btn" id="personal_information_btn"

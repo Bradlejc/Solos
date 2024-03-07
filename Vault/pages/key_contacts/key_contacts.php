@@ -113,6 +113,10 @@ include("../../form_handlers/session_handler.php");
                         <label for="floatingInput">Clergy Email</label>
                     </div>
                 </div>
+
+                <div class="col-md-6 col-lg-3 last_attorney">
+                    <button class="btn btn-primary w-100 h-100 add_attorney_btn">Clergy +</button>
+                </div>
             </div>
 
             <div class="row g-3 pt-3">
@@ -146,53 +150,26 @@ include("../../form_handlers/session_handler.php");
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Accountant</label>
+                        <label for="floatingInput">CPA</label>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Accountant Number</label>
+                        <label for="floatingInput">CPA Number</label>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Accountant Email</label>
+                        <label for="floatingInput">CPA Email</label>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-3 last_accountant">
-                    <button class="btn btn-primary w-100 h-100 add_accountant_btn">Accountant +</button>
-                </div>
-            </div>
-
-            <div class="row g-3 pt-3">
-                <div class="col-md-6 col-lg-3">
-                    <div class="form-floating">
-                        <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Tax Preparer</label>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="form-floating">
-                        <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Tax Preparer Number</label>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3">
-                    <div class="form-floating">
-                        <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Tax Preparer Email</label>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3 last_taxpreparer">
-                    <button class="btn btn-primary w-100 h-100 add_taxpreparer_btn">Tax Preparer +</button>
+                    <button class="btn btn-primary w-100 h-100 add_accountant_btn">CPA +</button>
                 </div>
             </div>
 

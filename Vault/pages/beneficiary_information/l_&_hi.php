@@ -62,7 +62,7 @@ include("../../form_handlers/session_handler.php");
         <form action="personal_information.php" method="POST" id="add_personal_information">
             <div class="row g-3 py-3">
                 <div class="col-9">
-                    <h1 class="fw-bold">Life & Health Insurance</h1>
+                    <h1 class="fw-bold">Beneficiary Life & Health Insurance</h1>
                 </div>
                 <div class="col-3">
                     <input type="submit" name="personal_information_btn" id="personal_information_btn"
@@ -88,7 +88,7 @@ include("../../form_handlers/session_handler.php");
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="dob" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Name</label>
+                        <label for="floatingInput">Name of Insured</label>
                     </div>
                 </div>
 
@@ -109,7 +109,7 @@ include("../../form_handlers/session_handler.php");
                 <div class=" col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="ssn" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Beneficiary</label>
+                        <label for="floatingInput">Beneficiary of this policy</label>
                     </div>
                 </div>
 
@@ -125,7 +125,7 @@ include("../../form_handlers/session_handler.php");
 
             <div class="row g-3 justify-content-center mt-3" id="new_l_&_hi">
                 <div class="col-md-6 col-lg-3">
-                    <button class="btn btn-primary w-100 add_lifeinsurance_btn">+</button>
+                    <button class="btn btn-primary w-100 add_lifeinsurance_btn">+ Policy</button>
                 </div>
             </div>
 

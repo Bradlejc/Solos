@@ -92,6 +92,9 @@ include("../../form_handlers/session_handler.php");
                     </div>
                 </div>
 
+            </div>
+            <div class="row g-3 py-3">
+
                 <div class="col-md-6 col-lg-3">
                     <select name="military_service" class="form-select w-100 h-100 shadow-none"
                         placeholder="Type of Entity">
@@ -106,15 +109,15 @@ include("../../form_handlers/session_handler.php");
                     </select>
                 </div>
 
-            </div>
-            <div class="row g-3 py-3">
-
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
                         <label for="floatingInput">Ownership</label>
                     </div>
                 </div>
+
+            </div>
+            <div class="row g-3">
 
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
@@ -131,11 +134,11 @@ include("../../form_handlers/session_handler.php");
                 </div>
 
                 <div class="col-md-6 col-lg-3 last_attorney">
-                    <button class="btn btn-primary w-100 h-100 add_attorney_btn">Add +</button>
+                    <button class="btn btn-primary w-100 h-100 add_attorney_btn">+ Add Partner</button>
                 </div>
 
             </div>
-            <div class="row g-3">
+            <div class="row g-3 py-3">
 
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
@@ -152,11 +155,11 @@ include("../../form_handlers/session_handler.php");
                 </div>
 
                 <div class="col-md-6 col-lg-3 last_attorney">
-                    <button class="btn btn-primary w-100 h-100 add_attorney_btn">Add +</button>
+                    <button class="btn btn-primary w-100 h-100 add_attorney_btn">+ Add Key Employee</button>
                 </div>
-            </div>
 
-            <div class="row g-3 py-3">
+            </div>
+            <div class="row g-3">
 
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
@@ -172,12 +175,15 @@ include("../../form_handlers/session_handler.php");
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-3 last_attorney">
-                    <button class="btn btn-primary w-100 h-100 add_attorney_btn">Add +</button>
+                <div class="col-md-6 col-lg-3">
+                    <div class="form-floating">
+                        <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
+                        <label for="floatingInput">Email Address</label>
+                    </div>
                 </div>
             </div>
 
-            <div class="row g-3">
+            <div class="row g-3 pt-3">
 
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
@@ -186,15 +192,15 @@ include("../../form_handlers/session_handler.php");
                     </div>
                 </div>
 
+                <div class="col-md-6 col-lg-3 last_attorney">
+                    <button class="btn btn-primary w-100 h-100 add_attorney_btn">+ Add Attorney</button>
+                </div>
+
                 <div class="col-md-6 col-lg-3">
                     <div class="form-floating">
                         <input type="text" name="full_legal_name" class="form-control shadow-none" id="floatingInput">
-                        <label for="floatingInput">Phone Number</label>
+                        <label for="floatingInput">Attorney Phone Number</label>
                     </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3 last_attorney">
-                    <button class="btn btn-primary w-100 h-100 add_attorney_btn">Add +</button>
                 </div>
             </div>
 

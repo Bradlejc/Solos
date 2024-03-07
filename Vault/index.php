@@ -102,7 +102,7 @@ include("keycode_handlers/encrypted_key.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-address-book fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
@@ -149,7 +149,7 @@ include("keycode_handlers/encrypted_key.php");
                                     </a>
                                 </div>
                                 <div class="col-auto">
-                                    <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                    <i class="fa-solid fa-user fa-2x text-secondary"></i>
                                 </div>
                             </div>
                         </div>
@@ -170,7 +170,7 @@ include("keycode_handlers/encrypted_key.php");
                                         </a>
                                     </div>
                                     <div class="col-auto">
-                                        <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                        <i class="fa-solid fa-user fa-2x text-secondary"></i>
                                     </div>
                                 </div>
                             </div>
@@ -213,7 +213,7 @@ include("keycode_handlers/encrypted_key.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-book-medical fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
@@ -253,7 +253,7 @@ include("keycode_handlers/encrypted_key.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-money-bill fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
@@ -293,7 +293,7 @@ include("keycode_handlers/encrypted_key.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-file-invoice-dollar fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
@@ -333,7 +333,7 @@ include("keycode_handlers/encrypted_key.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-children fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
@@ -373,7 +373,7 @@ include("keycode_handlers/encrypted_key.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-chart-simple fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
@@ -413,7 +413,7 @@ include("keycode_handlers/encrypted_key.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-house fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
@@ -453,7 +453,7 @@ include("keycode_handlers/encrypted_key.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-user-shield fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
@@ -493,7 +493,7 @@ include("keycode_handlers/encrypted_key.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-lock fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
@@ -533,7 +533,7 @@ include("keycode_handlers/encrypted_key.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-route fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
@@ -572,7 +572,7 @@ include("keycode_handlers/encrypted_key.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-dog fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
@@ -612,7 +612,7 @@ include("keycode_handlers/encrypted_key.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-person-cane fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
@@ -652,7 +652,7 @@ include("keycode_handlers/encrypted_key.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-folder fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
@@ -692,7 +692,7 @@ include("keycode_handlers/encrypted_key.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-people-roof fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
@@ -732,7 +732,8 @@ include("keycode_handlers/encrypted_key.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-box-archive fa-2x text-secondary"></i>
+
                             </div>
                         </div>
                     </div>
@@ -772,7 +773,7 @@ include("keycode_handlers/encrypted_key.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                <i class="fa-brands fa-bitcoin fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
@@ -812,7 +813,7 @@ include("keycode_handlers/encrypted_key.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-list fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>

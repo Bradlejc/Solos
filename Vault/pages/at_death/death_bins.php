@@ -58,7 +58,7 @@ include("../../form_handlers/session_handler.php");
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
                                 <div class="text-xs fw-bold text-dark text-uppercase mb-1">
-                                    Instructions</div>
+                                    At Health/Instructions</div>
                                 <a class="btn btn-link text-secondary text-decoration-none" href="instructions.php">
                                     Enter Bin
                                 </a>
@@ -77,7 +77,7 @@ include("../../form_handlers/session_handler.php");
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
                                 <div class="text-xs fw-bold text-dark text-uppercase mb-1">
-                                    Arrangements</div>
+                                    At Death/Arrangements</div>
                                 <a class="btn btn-link text-secondary text-decoration-none" href="arrangements.php">
                                     Enter Bin
                                 </a>
@@ -96,7 +96,7 @@ include("../../form_handlers/session_handler.php");
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
                                 <div class="text-xs fw-bold text-dark text-uppercase mb-1">
-                                    Wishes</div>
+                                    At Death/Wishes</div>
                                 <a class="btn btn-link text-secondary text-decoration-none" href="wishes.php">
                                     Enter Bin
                                 </a>
@@ -135,7 +135,7 @@ include("../../form_handlers/session_handler.php");
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
                                 <div class="text-xs fw-bold text-dark text-uppercase mb-1">
-                                    Pay/Cancel</div>
+                                    At Death/Pay/Cancel</div>
                                 <a class="btn btn-link text-secondary text-decoration-none"
                                     href="pay_cancel.php">
                                     Enter Bin

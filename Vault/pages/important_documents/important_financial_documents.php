@@ -102,28 +102,24 @@ include("../../form_handlers/session_handler.php");
 
             <div class="row g-3">
 
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-3">
                     <label for="formFile" class="form-label"><strong>Account Statements</strong></label>
                     <input class="form-control" type="file" id="formFile">
                 </div>
 
-                <div class="col-md-6 col-lg-4">
-                    <label for="floatingInput" class="form-label"><strong>Name</strong></label>
-                    <input type="text" class="form-control shadow-none" name="preferred_pharmacy" id="floatingInput"
-                        placeholder="Description">
-                </div>
-
-            </div>
-
-            <div class="row g-3">
-
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-3">
                     <label for="floatingInput" class="form-label"><strong>Year</strong></label>
                     <input type="text" class="form-control shadow-none" name="preferred_pharmacy" id="floatingInput"
                         placeholder="Description">
                 </div>
 
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-3">
+                    <label for="floatingInput" class="form-label"><strong>Name</strong></label>
+                    <input type="text" class="form-control shadow-none" name="preferred_pharmacy" id="floatingInput"
+                        placeholder="Description">
+                </div>
+
+                <div class="col-md-6 col-lg-3">
                     <label for="floatingInput" class="form-label"><strong>Description</strong></label>
                     <input type="text" class="form-control shadow-none" name="preferred_pharmacy" id="floatingInput"
                         placeholder="Description">

@@ -9,7 +9,7 @@ include("../../form_handlers/session_handler.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Retirement</title>
+    <title>Pension</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
@@ -62,7 +62,7 @@ include("../../form_handlers/session_handler.php");
         <form action="retirement.php" method="POST" id="add_personal_information">
             <div class="row g-3 py-3">
                 <div class="col-9">
-                    <h1 class="fw-bold">Retirement</h1>
+                    <h1 class="fw-bold">Pension</h1>
                 </div>
                 <div class="col-3">
                     <input type="submit" name="personal_information_btn" id="personal_information_btn"

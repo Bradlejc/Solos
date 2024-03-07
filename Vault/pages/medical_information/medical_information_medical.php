@@ -62,7 +62,7 @@ include("../../page_handlers/medical_information_handler.php");
         <form action="medical_information.php" method="POST">
             <div class="row g-3 py-3">
                 <div class="col-9">
-                    <h1 class="fw-bold">Medical Information</h1>
+                    <h1 class="fw-bold">Medical Details</h1>
                 </div>
                 <div class="col-3">
                     <input type="submit" name="medical_information_btn" class="btn btn-primary w-100" value="Save">
