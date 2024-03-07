@@ -12,7 +12,7 @@ vault
 
 ## more tables will be added as the project develops
 
-### Create important documents table 
+### Create `important documents` table 
 CREATE TABLE `important_documents` (
   `id` int(11) NOT NULL,
   `filename` longblob NOT NULL
