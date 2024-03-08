@@ -8,7 +8,7 @@ Install PHP Server on local machine, I am using MAMP for Mac
 MySQL is the database used, if another is used then the utils/config.php file will need to be modified accordingly
 
 ### Database Name: 
-vault
+`vault`
 
 ## more tables will be added as the project develops
 
