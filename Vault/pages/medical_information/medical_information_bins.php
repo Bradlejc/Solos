@@ -89,7 +89,7 @@ include("../../form_handlers/session_handler.php");
 
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-user fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-book-medical fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@ include("../../form_handlers/session_handler.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-truck-medical fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-book-medical fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
@@ -128,7 +128,7 @@ include("../../form_handlers/session_handler.php");
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-money-bill-wave fa-2x text-secondary"></i>
+                                <i class="fa-solid fa-book-medical fa-2x text-secondary"></i>
                             </div>
                         </div>
                     </div>
