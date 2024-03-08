@@ -12,6 +12,17 @@ vault
 
 ## more tables will be added as the project develops
 
+### Create `users` table 
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(100) NOT NULL,
+  `last_name` varchar(100) NOT NULL,
+  `email_address` varchar(250) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `date_created` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8
+
 ### Create `important documents` table 
 CREATE TABLE `important_documents` (
   `id` int(11) NOT NULL,
